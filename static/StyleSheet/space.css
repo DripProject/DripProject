@@ -1,0 +1,15 @@
+br{
+    content: "";
+    display: block;
+    margin-bottom: 3.0%;
+    margin-left: auto;
+
+}
+
+.ecart{
+    max-width: 100%; 
+    margin-right: 10%;
+    margin-top: 15ch;
+    float: right;
+    
+}
