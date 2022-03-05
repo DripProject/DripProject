@@ -1,0 +1,40 @@
+.header {
+    height: 112px;
+    background-image: url("../Image/Header.jpg");
+    width: 100%;
+    
+    
+}
+
+.container{
+    display: flex;
+    width:100%;
+
+}
+
+.Logo_Header {
+    position: relative;
+    right: 290%;
+    width: 130px;
+    height: 130px;
+}
+
+.Conf:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(240, 248, 255);
+    transition: margin-right 2s, color 1s;
+    ;
+}
+
+.Conf {
+    position: relative;
+    height: 25px;
+    left: 80.0%;
+    color: aliceblue;
+    font-size: 100%;
+    border-radius: 10px;
+    border-color: white;
+    font-family: "Titre";
+    background-color: rgb(0, 0, 0);
+}
+

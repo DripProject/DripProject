@@ -1,0 +1,176 @@
+@font-face {
+    font-family: 'Titre';
+    src: url('../Titre.otf') format('OpenType');
+}
+
+
+#chat::-webkit-scrollbar {
+    width: 10px; /* width of the entire scrollbar */
+  }
+  
+  #chat::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.24); /* color of the tracking area */
+  }
+  
+  #chat::-webkit-scrollbar-thumb {
+    background-color: rgb(82, 82, 82); /* color of the scroll thumb */
+    border-radius: 20px; /* roundness of the scroll thumb */
+    
+  }
+
+
+
+.friend_content{
+    display:none;
+    
+
+    font-size:10px;
+    font-family: 'Titre';
+    
+    margin: 0 auto;
+    width:100px;
+    height: 55px;
+
+
+}
+.deco_button{
+    
+}
+
+.container_friend_list{
+    margin-left: 1%;
+    width: 20cm;
+    height: 5cm;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+
+}
+.friend_list{
+    float:left;
+    margin-left:5%;
+    /* display:flex; */
+    padding: 0;   
+    
+
+}
+
+.friend_search{
+    font-family: 'Titre';
+    margin-top: 10px;
+    display:inline-block;
+    margin-left:40;
+    margin-right:40;
+    border-radius:50px;
+    border: blue 2px inset;
+    width:200px;
+    height:50px;
+    font-size:max(1.1vw,20px);
+
+}
+.Bloc_Bt{
+    margin-top: 1%;
+    min-width:90%;
+    
+    
+}
+
+
+#footer_bloc{
+    
+    color: rgb(0, 119, 255);
+    font-family: "Titre";
+    /* text-decoration:underline wavy rgb(0, 162, 255); */
+    margin-top:10cm;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border:white solid;
+    background-color:white;
+    height:80px;
+    width: 100.%;
+    
+    
+}
+
+.container_chat{
+    float:right;
+    margin-right: 10%;
+    margin-top:-5.5cm;
+}
+textarea{
+    resize:none;
+    min-width : 295px;
+    min-height : 10px;
+    max-width : 295px;
+    max-height : 50px;
+}
+
+#chat{
+    background-color:rgb(255, 255, 255);
+    border-radius:5px;
+    overflow-y:scroll;
+    height:13cm;
+    max-height: 13cm;
+    width: 300px;
+    max-width: 300px;
+    border:solid 1px rgb(0, 0, 0);
+}
+.user_name{
+    font-family: "Titre";
+    font-size: 100%;
+}
+.container_mess{
+    
+    min-height: 100px;
+    max-height: 300px;
+    text-align:left;
+    margin-left:1%;
+    overflow: hidden;
+}
+.user_mess{
+    overflow: hidden;
+    display:block;
+    padding:5px;
+    border:solid 1px black ;
+    background-color: rgb(0, 102, 255) ;
+    border-radius: 10px;
+    width: 25px;
+    min-height: 10px;
+    max-height: 300px;
+    color:rgb(255, 255, 255);
+    font-size:100%;
+    
+}
+#img_co{
+    display: inline;
+    width:0.5%;
+}
+#img_grp{
+    display: inline;
+    width:1.0%;
+}
+#form_id_friend, #form_com{
+    display: inline-block; 
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30px;
+    border-radius: 20px;
+    border: 2px outset rgb(0, 110, 255);
+    transition-property: border;
+    transition-duration: 1s;
+    font-size:115%;
+}
+
+#form_id_friend:focus{
+    border: 2px outset rgb(255, 230, 0);
+    transition: border 0.5s ease-in-out;
+
+}
+
+#p_profil{
+    width: 10%;
+    display:block;
+    margin:0 auto;
+    margin-top:100px;
+}
